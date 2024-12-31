@@ -1,0 +1,11 @@
+/* this style sheet is for my styles to avoid messing with the theme's styles */
+/* every rule should have a class or id to avoid changing the theme's styles */
+.resume-dates {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 0; */
+}
+
+div.resume-dates > p {
+    margin-bottom: 0;
+}
