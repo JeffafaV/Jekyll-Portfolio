@@ -3,7 +3,7 @@ layout: page
 title: Skills
 ---
 
-# Languages
+# Languages (Move to about page)
 
 ## HTML/CSS/JS
 - React
