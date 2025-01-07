@@ -13,7 +13,7 @@ title: Repositories
     {% endif %}
     
     <tr>
-    <td>
+    <td class="repo-table fir-repo-col">
         <div>
             <h2> {{ project.name }} </h2>
             <p> Updated: {{ project.pushed_at | date: "%b %d, %Y" }} </p>
@@ -26,7 +26,7 @@ title: Repositories
         </div>
     </td>
     
-    <td><p> {{ project.description | default: "No description available." }} </p></td>
+    <td class="repo-table sec-repo-col"><p> {{ project.description | default: "No description available." }} </p></td>
     </tr>
 {% endfor %}
 </table>

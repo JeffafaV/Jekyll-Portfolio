@@ -9,3 +9,15 @@
 div.resume-dates > p {
     margin-bottom: 0;
 }
+
+.repo-table p {
+    margin-bottom: 0;
+}
+
+.fir-repo-col {
+    width: 33%;
+}
+
+.sec-repo-col {
+    width: 67%;
+}
