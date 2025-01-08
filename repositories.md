@@ -21,7 +21,7 @@ title: Repositories
             <p><a href="{{ project.html_url }}">Code</a></p>
             {% comment %} this is if you have a custom github pages site for the repository {% endcomment %}
             {% if project.has_pages %}
-            <p><a href="http://{{ project.owner.login }}.github.io/{{ project.name }}>Demo</p>
+            <p><a href="http://{{ project.owner.login }}.github.io/{{ project.name }}">Demo</a></p>
             {% endif %}
         </div>
     </td>
